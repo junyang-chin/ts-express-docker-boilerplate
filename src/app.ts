@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {
-  res.send({ message: "hello world hehe knn h aksdfj tiu finally lahah" });
+  res.send({ message: "hello world" });
 });
 
 interface Body {
